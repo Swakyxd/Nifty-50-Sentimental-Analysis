@@ -1,0 +1,11 @@
+# Economic Times Downloader Requirements
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# HTML Parsing (beautifulsoup4 dependency)
+lxml>=4.9.0
+
+# Optional: Progress bars for large downloads
+tqdm>=4.65.0

@@ -1,0 +1,50 @@
+# Large PDF files
+newspaper/data/economic_times_pdfs/
+version-2/data/newspaper/data/economic_times_pdfs/
+*.pdf
+
+# Large CSV files
+*.csv
+
+# Model files (large binaries)
+*.h5
+*.keras
+*.pt
+*.pkl
+
+# Notebooks (too large)
+*.ipynb
+
+# Data directories
+newspaper/data/
+version-2/data/newspaper/
+version-2/processed/
+version-2/models/retrained/
+version-2/models/collab/
+version-2/models/trained_local/
+version-1/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Predictions
+predictions/*.json
+version-2/predictions/*.json
