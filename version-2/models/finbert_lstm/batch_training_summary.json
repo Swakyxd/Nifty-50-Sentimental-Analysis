@@ -1,0 +1,42 @@
+[
+  {
+    "batch_idx": 1,
+    "batch_years": "2013-2015",
+    "best_val_auc": 0.7452380952380953,
+    "final_train_auc": 0.6196435831413472,
+    "final_val_auc": 0.6851190476190476,
+    "epochs_trained": 21
+  },
+  {
+    "batch_idx": 2,
+    "batch_years": "2016-2018",
+    "best_val_auc": 0.6679841897233201,
+    "final_train_auc": 0.6790207577932981,
+    "final_val_auc": 0.5731225296442687,
+    "epochs_trained": 15
+  },
+  {
+    "batch_idx": 3,
+    "batch_years": "2019-2021",
+    "best_val_auc": 0.7826541274817136,
+    "final_train_auc": 0.6261439221463327,
+    "final_val_auc": 0.6739811912225705,
+    "epochs_trained": 13
+  },
+  {
+    "batch_idx": 4,
+    "batch_years": "2022-2024",
+    "best_val_auc": 0.6068665377176015,
+    "final_train_auc": 0.5296376537478363,
+    "final_val_auc": 0.5294970986460348,
+    "epochs_trained": 13
+  },
+  {
+    "batch_idx": 5,
+    "batch_years": "2025-2025",
+    "best_val_auc": 0,
+    "final_train_auc": 0.5779967159277505,
+    "final_val_auc": 0,
+    "epochs_trained": 10
+  }
+]

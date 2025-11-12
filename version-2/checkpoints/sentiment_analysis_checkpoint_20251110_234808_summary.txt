@@ -1,0 +1,33 @@
+Sentiment Analysis Checkpoint Summary
+============================================================
+
+Created: 2025-11-10 23:48:17
+
+Data Statistics:
+  Total samples: 974,334
+  Training samples: 921,084
+  Validation samples: 23,250
+  Test samples: 29,625
+
+Features:
+  Total feature columns: 99
+  Market features: 44
+  News features: 35
+  Rolling features: 15
+  Derived features: 3
+
+Configuration:
+  prediction_horizon_minutes: 375
+  prediction_horizon_days: 1
+  input_frequency: 1min
+  task_type: classification
+  classification_threshold: 0.0
+  sequence_length: 60
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  validation_split: 0.2
+  test_split: 0.1
+  use_technical_indicators: True
+  use_sentiment_features: True
+  use_volume_features: True

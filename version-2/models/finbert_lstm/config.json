@@ -1,0 +1,23 @@
+{
+  "sequence_length": 20,
+  "prediction_horizon": 5,
+  "finbert_model": "ProsusAI/finbert",
+  "max_news_length": 512,
+  "lstm_units": 128,
+  "lstm_layers": 2,
+  "dropout": 0.3,
+  "bidirectional": true,
+  "batch_size": 32,
+  "epochs": 50,
+  "learning_rate": 0.001,
+  "patience": 10,
+  "device": "cuda",
+  "use_batch_training": true,
+  "batch_years": 3,
+  "incremental_learning": true,
+  "n_features": 32,
+  "trained_batches": 5,
+  "active_model": "batch_3_2019-2021",
+  "validation_auc": 0.7827,
+  "model_description": "Best performing model (Batch 3: 2019-2021) with 78.27% validation AUC"
+}

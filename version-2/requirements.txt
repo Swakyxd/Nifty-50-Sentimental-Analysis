@@ -10,6 +10,7 @@ numpy>=1.21.0,<2.0.0
 pandas>=1.5.0,<3.0.0
 
 # Deep Learning Framework
+torch>=2.0.0
 tensorflow>=2.10.0,<2.16.0
 
 # Machine Learning
@@ -19,10 +20,20 @@ scikit-learn>=1.1.0,<2.0.0
 matplotlib>=3.5.0,<4.0.0
 seaborn>=0.11.0,<1.0.0
 
+# Live Market Data
+yfinance>=0.2.0
+
+# Live News Data
+newsapi-python
+
 # Jupyter Notebook
 jupyter>=1.0.0
 ipykernel>=6.0.0
 notebook>=6.4.0
+
+# Web Interface
+streamlit>=1.28.0
+flask>=2.3.0
 
 # ===================================================================
 # OPTIONAL PACKAGES (Recommended for full functionality)
