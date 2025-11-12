@@ -609,6 +609,7 @@ models/finbert_lstm/batch_X_YYYY-YYYY/best_model.pt
 ### Data Sources
 - **Market Data**: NIFTY 50 1-minute OHLCV data
 - **News Data**: Economic Times articles (optional enhancement)
+- **Indian Financial News Dataset**: https://www.kaggle.com/datasets/hkapoor/indian-financial-news-articles-20032020
 - **Date Range**: Historical data up to April 2025
 
 ### Feature Engineering
@@ -732,6 +733,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - PyTorch team for the deep learning framework
 - Flask team for the lightweight web framework
 - NewsAPI for providing financial news data
+- Indian Financial News dataset by hkapoor on Kaggle: https://www.kaggle.com/datasets/hkapoor/indian-financial-news-articles-20032020
 - The open-source community for various Python libraries
 
 ---
