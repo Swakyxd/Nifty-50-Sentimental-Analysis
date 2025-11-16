@@ -1,0 +1,18 @@
+{
+  "sequence_length": 20,
+  "prediction_horizon": 5,
+  "finbert_model": "ProsusAI/finbert",
+  "max_news_length": 512,
+  "lstm_units": 128,
+  "lstm_layers": 2,
+  "dropout": 0.3,
+  "bidirectional": true,
+  "batch_size": 32,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "patience": 10,
+  "device": "cuda",
+  "validation_auc": 0.5,
+  "validation_accuracy": 0.4982430954334154,
+  "n_features": 26
+}
